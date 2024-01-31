@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Pacifico&family=Prompt:wght@300&family=Ubuntu&display=swap');
+#contactsection{
+    /* background: center/cover no-repeat url('/static/art4.avif'); */
+    width: 100%;
+    /* height: 100%; */
+    background: repeating-linear-gradient(45deg, #92c9b1, #92c9b1 20px, #b3e0d2 20px, #b3e0d2 40px);  
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    background-color: #f5fffe;
+}
+#contactsection h2{
+    text-align: center;
+    margin: 20px 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    width: 375px;
+    margin: 5px;
+    padding: 3px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+.btn{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #2c0303;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+    height: 36px;
+    width: 250px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: yellowgreen;
+    color: black;
+    font-weight: bold;
+}

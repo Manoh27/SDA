@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Pacifico&family=Prompt:wght@300&family=Ubuntu&display=swap');
+#sponsorsection{
+    /* background: center/cover no-repeat url('/static/art3.avif'); */
+    display: flex;
+    flex-direction: column;
+    /* background-color: #f5fffe; */
+    height: 550px;
+    justify-content: top;
+    align-items: center;
+    background-color: #e5e5f7;
+    opacity: 1;
+    width: 100%;
+    /* height: 100%; */
+    background-image: repeating-radial-gradient(
+        circle at 0 0,
+        transparent 0,
+        #e5e5f7 30px
+      ),
+      repeating-linear-gradient(#ffb5b58a, #ffb8b8);  
+}
+#sponsorsection h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 50px 15px;
+    color: black
+}
+#sponsor-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#sponsor-group img{
+    height: 150px;
+    margin: 25px;
+}
+#footer{
+    background-color: black;
+    height: 22px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}

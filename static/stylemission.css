@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Pacifico&family=Prompt:wght@300&family=Ubuntu&display=swap');
+#mission{
+    height: 550px;
+    background-color: wheat;
+}
+#mission h2{
+    color: black;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    padding: 30px 15px;
+    margin: 0px 5px;
+}
+.card-section{
+    display: flex;
+    margin: 50px 0px
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    height: 300px;
+    margin: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    background-color: floralwhite;
+}
+.card h3{
+    margin: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+.card-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.card-pic img{
+    height: 135px;
+    margin: 10px
+}
+.card-content p{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#footer{
+    background-color: black;
+    height: 22px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}

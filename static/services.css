@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Pacifico&family=Prompt:wght@300&family=Ubuntu&display=swap');
+
+#services{
+    /* height: 900px; */
+    width: 100%;
+    height: 900px;
+    background-image: repeating-radial-gradient(  #0c0a0a 80%,#2f312f 90%,#3f4549 90%);
+    background-size: 65px 65px;
+  
+}
+#services h3{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 10px;
+    background-image: repeating-radial-gradient(  #0c0a0a 80%,#2f312f 90%,#3f4549 90%);
+    color: white;
+}
+.slide-content{
+    display: flex;
+}
+
+.mySlides{
+    display: none;
+}
+
+.group{
+    position: relative;
+}
+
+img{
+    height: 100vh;
+    width: 210vh;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.middle{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.btn{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 20px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 25px 40px 40px 40px;
+    background-color: #7afeaa;
+}
